@@ -1,0 +1,60 @@
+{
+    "name": "scriptingbeating/laravel-global-settings",
+    "description": "It stores all your laravel settings in database and provides a simple api to work with those settings. It also type cast your values into the specified format.",
+    "keywords": [
+        "scriptingbeating",
+        "laravel-global-settings",
+        "laravel-dynamic-settings",
+        "laravel-app-settings"
+    ],
+    "homepage": "https://github.com/scriptingbeating/laravel-global-settings",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mohan Sharma",
+            "email": "mohansharma201.ms@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^7.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ScriptingBeating\\GlobalSetting\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ScriptingBeating\\GlobalSetting\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ScriptingBeating\\GlobalSetting\\GlobalSettingServiceProvider"
+            ],
+            "aliases": {
+                "GlobalSetting":  "ScriptingBeating\\GlobalSetting\\GlobalSettingFacade"
+            }
+        }
+    }
+}
