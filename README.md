@@ -1,6 +1,6 @@
 # Laravel Global Settings
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/scriptingbeating/global-settings.svg?style=flat-square)](https://packagist.org/packages/scriptingbeating/global-settings)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/scriptingbeating/laravel-global-settings.svg?style=flat-square)](https://packagist.org/packages/scriptingbeating/laravel-global-settings)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
 
 It stores all your laravel settings in database and provides a simple api to work with those settings. It also type cast your values into the specified format.
