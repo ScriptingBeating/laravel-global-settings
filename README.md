@@ -43,6 +43,7 @@ object
 
 ``` php
 global_setting()->all();
+global_setting($key); // global_setting('app_name');
 global_setting()->get($key, $default = null);
 global_setting()->set($key, $value);
 global_setting()->set($key, $value, $type = 'string');
