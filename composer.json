@@ -4,8 +4,13 @@
     "keywords": [
         "scriptingbeating",
         "laravel-global-settings",
-        "laravel-dynamic-settings",
-        "laravel-app-settings"
+        "laravel dynamic settings",
+        "laravel app settings",
+        "laravel",
+        "db settings",
+        "global settings",
+        "dynamic settings",
+        "store setting in database laravel"
     ],
     "homepage": "https://github.com/scriptingbeating/laravel-global-settings",
     "license": "MIT",
